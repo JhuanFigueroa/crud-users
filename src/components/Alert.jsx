@@ -4,7 +4,7 @@ import axios from 'axios';
 import AppContext from '../context/AppContext';
 
 function Alert(props){
-    const baseURL = "http://127.0.0.1:8000/api/users/delete/";
+    const baseURL = "https://crudbackend-production-5f61.up.railway.app/api/users/delete/";
 
     const {addMessage}=React.useContext(AppContext);
 
