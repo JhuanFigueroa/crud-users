@@ -12,7 +12,7 @@ function UserForm(){
 
     let navigate = useNavigate();
 
-    const baseURL='http://127.0.0.1:8000/api/users/create';
+    const baseURL='https://crudbackend-production-5f61.up.railway.app/api/users/create';
 
     const form=useRef(null);
 

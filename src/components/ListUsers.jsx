@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import AppContext from "../context/AppContext";
 
 function ListUsers(props) {
-  const baseURL = "http://127.0.0.1:8000/api/users";
+  const baseURL = "https://crudbackend-production-5f61.up.railway.app/api/users";
 
   const{state}=React.useContext(AppContext);
  
