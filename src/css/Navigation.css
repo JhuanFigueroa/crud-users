@@ -1,0 +1,23 @@
+.Navigation{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+}
+
+li{
+   list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
